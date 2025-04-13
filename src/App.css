@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 99vh;
+    margin: 0 50px;
+
+    border: 2px solid black;
+}
+
+.break-session-length, .btn-break, .btn-session, .btn-timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 10px;
+    
+    /* border: 2px solid red; */
+}
+button {
+    height: 20px;
+    width: 20px;
+}
+.timer {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+
+    /* border: 2px solid green; */
+}
+.btn-timer {
+    margin: 0 auto;
+}
+.btn-timer > button {
+    height: 30px;
+    width: 80px;
+    margin: 10px;
+}
